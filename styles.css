@@ -18,6 +18,14 @@ h2{
 	font-size:1.4vw;
 	font-weight: normal;
 }
+a{
+	color: black;
+	font-size: 14pt;
+}
+link{
+	color: black;
+	font-size: 14pt;
+}
 .content{
 	margin: auto;
   	width: 75%;
@@ -48,13 +56,13 @@ h2{
 	padding-left: 1%;
 	margin-top: 4.5%;
 	max-width: 26%;
-	background-color: rgba(255,255,255,0.45);
+	background-color: rgba(255,255,255,0.66);
 }
 .posts{
 	padding-top: 3%;
 	padding-bottom: 3%;
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 	gap: 20px;
 }
 .postmargin{
@@ -73,21 +81,21 @@ h2{
 	text-align: center;
 }
 .hoveropacity:hover{
-	opacity: 0.5;
+	opacity: 0.7;
 }
-a:link { 
+.nav a:link{ 
 	position: relative;
 	text-decoration: none;
 	color: black;
 }
-a:visited { 
+.nav a:visited { 
 	text-decoration: none;
 	color: black;
 }
-a:hover{
+.nav a:hover{
 	color: black;
 }
-a:before {
+.nav a:before{
  	content: "";
 	position: absolute;
 	width: 100%;
@@ -99,7 +107,7 @@ a:before {
   	transform: scaleX(0);
   	transition: all 0.3s ease-in-out 0s;
 }
-a:hover:before {
+.nav a:hover:before{
  	visibility: visible;
     transform: scaleX(1);
 }
