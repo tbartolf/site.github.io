@@ -2,7 +2,7 @@ body{
 	width: 70%;
 	margin: auto auto;
 	font-family: 'EB Garamond', serif;
-	background-color: white;
+	background-color: #f2f3f4;
 }
 li{
 	display: inline;
@@ -51,12 +51,11 @@ link{
 	height: auto;
 }
 .portrait h2{
-	position: absolute;
+	position: relative;
 	transform: translate(0%, -580%);
-	padding-left: 1%;
-	margin-top: 4.5%;
-	max-width: 26%;
+	width: 50%;
 	background-color: rgba(255,255,255,0.66);
+	margin-top: 20%;
 }
 .posts{
 	padding-top: 3%;
@@ -68,7 +67,6 @@ link{
 .postmargin{
 	background-color: #eee;
 }
-
 .line{
 	border-bottom: 2px solid #ccc;
 	display: block;
